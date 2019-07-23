@@ -8,11 +8,13 @@ given unstructured discussion data, get main entity of discussion. and find sent
 * get pretrained wordvectors(glove.6B.50d.txt) and keep in pretrained-word-vectors directory.
 * git clone https://github.com/yizhongw/StageDP.git in root directory.
 * get stanford corenlp in root directory. change path accordingly wherever required.
+* sentiment best result comes from using BERT. here huggingface pytorch-BERT code is used. so get repo and use notebook.
 
 ## Execution steps.
 
 * entity_cluster.ipynb  --> to get entity related data.
 * sent_classfy_gensim_logit.ipynb --> pass above entity related data to sentiment api.
+* sent_classfy_bert_logit.ipynb --> pass above entity related data to sentiment api. (OR)
 
 ## Note
 * these notebooks contains each dependency applications code. but not as a single ordered code. so user has to test each related cell one by one. 
