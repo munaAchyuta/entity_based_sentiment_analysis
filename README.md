@@ -17,4 +17,4 @@ given unstructured discussion data, get main entity of discussion. and find sent
 * sent_classfy_bert_logit.ipynb --> pass above entity related data to sentiment api. (OR)
 
 ## Note
-* these notebooks contains each dependency applications code. but not as a single ordered code. so user has to test each related cell one by one. 
+* these notebooks contains each dependency applications code. but not as a single ordered code. so user has to test each related cell one by one. for integration , user has to take cells from each notebook.
