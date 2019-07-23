@@ -13,3 +13,6 @@ given unstructured discussion data, get main entity of discussion. and find sent
 
 * entity_cluster.ipynb  --> to get entity related data.
 * sent_classfy_gensim_logit.ipynb --> pass above entity related data to sentiment api.
+
+## Note
+* these notebooks contains each dependency applications code. but not as a single ordered code. so user has to test each related cell one by one. 
