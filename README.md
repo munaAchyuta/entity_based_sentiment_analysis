@@ -10,6 +10,9 @@ given unstructured discussion data, get main entity of discussion. and find sent
 * get stanford corenlp in root directory. change path accordingly wherever required.
 * sentiment best result comes from using BERT. here huggingface pytorch-BERT code is used. so get repo and use notebook.
 
+## data
+* just shared sample data format inside datasets directory for sentiment classification. so user has to get it's own data similar to given format.
+
 ## Execution steps.
 
 * entity_cluster.ipynb  --> to get entity related data.
