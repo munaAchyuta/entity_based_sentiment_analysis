@@ -1,7 +1,7 @@
 # entity_based_sentiment_analysis
 
 ## Description
-given unstructured discussion data, get main entity of discussion. and find sentiments of those entity.
+given unstructured discussion data, get main entity of discussion. and find sentiments or summarization of those entity.
 
 ## Requirements
 * suggestion : just run each cell and install dependency packages.
